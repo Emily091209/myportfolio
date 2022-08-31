@@ -1,0 +1,26 @@
+.App {
+  text-align:center;
+}
+
+.App-logo {
+  height: 25vmin;
+  pointer-events: none;
+  clip-path: circle();
+  filter: drop-shadow(0 0 2em #d85e0d) drop-shadow(0 0 0.3em #c75a12);
+}
+
+.App-header {
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #61dafb;
+}
+
+.App-link {
+  color: #ffffff;
+  text-decoration: none;
+}
