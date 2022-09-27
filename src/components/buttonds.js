@@ -1,10 +1,14 @@
 function Buttonds() {
     return (
-    <a className="btn btn-outline-info" 
-    href="https://discord.com/users/833399224761974785" 
-    role="button" 
-    rel="noreferrer"
-    target="_blank">My Discord 👾</a>
+    <button type="button" className="button">
+        <span className="button__text"><a href="https://discord.com/users/833399224761974785"
+        className="App-link"
+        target="_blank"
+        rel="noreferrer">My Discord</a></span>
+        <span className="button__icon">
+        <ion-icon name="logo-discord"></ion-icon>
+        </span>
+    </button>
     )
 }
 

@@ -1,10 +1,14 @@
 function Buttongh() {
     return (
-        <a className="btn btn-outline-info" 
-        href="https://github.com/Emily091209" 
-        role="button"
-        rel="noreferrer" 
-        target="_blank">My Github 🐱</a>
+        <button type="button" className="button">
+        <span className="button__text"><a href="https://github.com/emily091209"
+        className="App-link" 
+        target="_blank"
+        rel="noreferrer">My Github</a></span>
+        <span className="button__icon">
+        <ion-icon name="logo-github"></ion-icon>
+        </span>
+    </button> 
     )
 }
 
