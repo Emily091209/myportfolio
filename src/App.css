@@ -3,10 +3,11 @@
 }
 
 .App-logo {
+  position: relative;
+  top: -30px;
   height: 25vmin;
   pointer-events: none;
   clip-path: circle();
-  filter: drop-shadow(0 0 2em #d85e0d) drop-shadow(0 0 0.3em #c75a12);
 }
 
 .App-header {
