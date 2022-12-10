@@ -8,25 +8,20 @@ import Buttonpro from './components/buttonpro';
 function App() {
   return (
     <div className="App">
-      <div className="App-header">
-
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src={logo} className="App-logo" alt="logo" /></a>
-
-        <p>
-           Hi, <b>I'm &mi!</b><br></br>I'm a guy from Italy<br></br>that loves to code.
-        </p>
-        <div>
-        <Buttonds />  <Buttongh />
-        <br>
-        </br>
-        <Buttonsp />  <Buttonpro />
-        </div>
-
         <div class="neve_cadente">
          <div class="neve"></div>
-        </div>
+         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src={logo} className="App-logo" alt="logo" /></a>
 
-      </div>
+          <p>
+             Hi, <b>I'm &mi!</b><br></br>I'm a guy from Italy<br></br>that loves to code.
+          </p>
+         <div>
+            <Buttonds />  <Buttongh />
+                <br>
+                </br>
+             <Buttonsp />  <Buttonpro />
+            </div>
+        </div>
     </div>
   );
 }
