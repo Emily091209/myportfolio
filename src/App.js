@@ -3,8 +3,10 @@ import './App.css';
 import Buttonds from './components/buttonds';
 import Buttongh from './components/buttongh';
 import Buttonsp from './components/buttonsp';
+import { Component } from 'react';
 
-function App() {
+class App extends Component() {
+  render(){
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +22,7 @@ function App() {
       </header>
     </div>
   );
+ }
 }
 
 export default App;
