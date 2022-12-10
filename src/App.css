@@ -10,12 +10,23 @@
   clip-path: circle();
 }
 
+.App-header {
+  background: linear-gradient(-45deg, #23D5AB, #23A6D5, #E73C7E, #EE7752);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #61dafb;
+}
+
 .App-link {
   color: #000;
   text-decoration: none;
 }
 
-.button{
+.button {
   background-color: transparent;
   border-color: #000;
   border-radius: 5px;

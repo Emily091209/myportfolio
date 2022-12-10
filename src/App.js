@@ -15,7 +15,7 @@ function App() {
           <p>
              Hi, <b>I'm &mi!</b><br></br>I'm a guy from Italy<br></br>that loves to code.
           </p>
-         <div className='button'>
+         <div>
             <Buttonds />  <Buttongh />
                 <br>
                 </br>
