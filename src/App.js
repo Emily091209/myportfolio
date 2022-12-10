@@ -9,10 +9,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-          target='_blank'
-          rel='noneferrer'
-          ><img src={logo} className="App-logo" alt="logo" /></a>
+
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src={logo} className="App-logo" alt="logo" /></a>
+
         <p>
            Hi, <b>I'm &mi!</b><br></br>I'm a guy from Italy<br></br>that loves to code.
         </p>
@@ -22,6 +21,11 @@ function App() {
         </br>
         <Buttonsp />  <Buttonpro />
         </div>
+
+        <div class="neve_cadente">
+         <div class="neve"></div>
+        </div>
+
       </header>
     </div>
   );
