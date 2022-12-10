@@ -6,7 +6,7 @@ function Buttonsp() {
         target="_blank"
         rel="noreferrer">My Spotify</a></span>
         <span className="button__icon">
-        <ion-icon name="logo-soptify"></ion-icon>
+        <ion-icon name="musical-notes-outline"></ion-icon>
         </span>
     </button> 
     )
