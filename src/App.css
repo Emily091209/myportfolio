@@ -11,7 +11,6 @@
 }
 
 .App-header {
-  background: linear-gradient(-45deg, #23D5AB, #23A6D5, #E73C7E, #EE7752);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -45,7 +44,7 @@
 .neve_cadente{
   height: 100vh;
   width: 100%;
-  background: none;
+  background: linear-gradient(-45deg, #23D5AB, #23A6D5, #E73C7E, #EE7752);
   background-size: cover;
   background-position: center bottom;
   position: relative;
