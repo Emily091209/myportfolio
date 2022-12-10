@@ -2,6 +2,7 @@ import logo from './lol.png';
 import './App.css';
 import Buttonds from './components/buttonds';
 import Buttongh from './components/buttongh';
+import Buttonsp from './components/buttonsp';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         </p>
         <div>
         <Buttonds />  <Buttongh />
+        <Buttonsp />
         </div>
       </header>
     </div>
