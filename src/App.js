@@ -3,6 +3,7 @@ import './App.css';
 import Buttonds from './components/buttonds';
 import Buttongh from './components/buttongh';
 import Buttonsp from './components/buttonsp';
+import Buttonpro from './components/buttonpro';
 
 function App() {
   return (
