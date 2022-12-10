@@ -6,7 +6,7 @@
   position: relative;
   top: -30px;
   height: 25vmin;
-  pointer-events: none;
+  cursor: pointer;
   clip-path: circle();
 }
 
@@ -26,7 +26,7 @@
   text-decoration: none;
 }
 
-.buttons {
+.button {
   background-color: transparent;
   border-color: #000;
   border-radius: 5px;
