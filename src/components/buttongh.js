@@ -1,6 +1,6 @@
 function Buttongh() {
     return (
-        <button type="button" className="button">
+        <button type="button">
         <span className="button__text"><a href="https://github.com/emily091209"
         className="App-link" 
         target="_blank"

@@ -1,6 +1,6 @@
 function Buttonpro() {
     return (
-        <button type="button" className="button">
+        <button type="button">
         <span className="button__text"><a href="https://open.spotify.com/user/e8p3bsmj1z12kvet1mhdvrzdo?si=bd9cbd7015df49b1"
         className="App-link" 
         target="_blank"
